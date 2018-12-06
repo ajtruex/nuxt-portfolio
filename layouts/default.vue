@@ -16,7 +16,7 @@ export default {
 
 <style>
 html {
-  font-family: Roboto, Open Sans, sans-serif;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

@@ -2,9 +2,7 @@
   <section class="container">
     <h1 class="title">Portfolio</h1>
     <p class="subtitle">Andrew Truex</p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ab voluptas eaque ipsam quibusdam quia esse nostrum amet voluptatibus in aut voluptates, id at, corporis blanditiis quisquam, reprehenderit suscipit sequi?
-    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ab voluptas eaque ipsam quibusdam quia esse nostrum amet voluptatibus in aut voluptates, id at, corporis blanditiis quisquam, reprehenderit suscipit sequi?</p>
   </section>
 </template>
 
@@ -28,7 +26,7 @@ export default {
 }
 
 .title {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
@@ -37,7 +35,7 @@ export default {
 }
 
 .subtitle {
-  font-family: Open Sans, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 42px;
   color: #526488;

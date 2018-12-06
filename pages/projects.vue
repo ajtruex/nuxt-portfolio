@@ -18,7 +18,7 @@ export default {}
   text-align: center;
 }
 .title {
-  font-family: Open Sans, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
