@@ -14,7 +14,15 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: '/https://fonts.googleapis.com/css?family=Roboto'
+      },
+      {
+        rel: 'stylesheet',
+        href: '/https://fonts.googleapis.com/css?family=Open+Sans'
+      }
     ]
   },
 
@@ -26,19 +34,18 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: [
-  ],
+  css: ['@/assets/css/main.css'],
 
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-  ],
+  plugins: [],
 
   /*
   ** Nuxt.js modules
   */
-  modules: [,
+  modules: [
+    ,
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt'
   ],
@@ -47,9 +54,6 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    /*
-    ** You can extend webpack config here
-    */
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {

@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <h1>Projects</h1>
+      <h1 class="title">Projects</h1>
     </div>
   </section>
 </template>
@@ -16,5 +16,13 @@ export default {}
   display: flex;
   justify-content: center;
   text-align: center;
+}
+.title {
+  font-family: Open Sans, sans-serif;
+  display: block;
+  font-weight: 300;
+  font-size: 100px;
+  color: #36495d;
+  letter-spacing: 1px;
 }
 </style>

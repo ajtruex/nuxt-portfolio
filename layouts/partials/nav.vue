@@ -1,5 +1,6 @@
 <template>
   <header>
+    <!-- <b-btn background-color="#36495d">Hi</b-btn> -->
     <!-- <nuxt-link to="/" class="logo">Nuxt</nuxt-link> -->
     <b-navbar toggleable="md" type="dark" variant="dark">
       <b-navbar-nav>

@@ -1,24 +1,10 @@
 <template>
   <section class="container">
-    <div>
-      <logo/>
-      <h1 class="title">
-        nuxt-portfolio
-      </h1>
-      <h2 class="subtitle">
-        My extraordinary Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
-      </div>
-    </div>
+    <h1 class="title">Portfolio</h1>
+    <p class="subtitle">Andrew Truex</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ab voluptas eaque ipsam quibusdam quia esse nostrum amet voluptatibus in aut voluptates, id at, corporis blanditiis quisquam, reprehenderit suscipit sequi?
+    </p>
   </section>
 </template>
 
@@ -42,16 +28,16 @@ export default {
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: Roboto, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: #36495d;
   letter-spacing: 1px;
 }
 
 .subtitle {
+  font-family: Open Sans, sans-serif;
   font-weight: 300;
   font-size: 42px;
   color: #526488;
