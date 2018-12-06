@@ -1,8 +1,11 @@
 <template>
   <section class="container">
-    <h1 class="title">Portfolio</h1>
-    <p class="subtitle">Andrew Truex</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ab voluptas eaque ipsam quibusdam quia esse nostrum amet voluptatibus in aut voluptates, id at, corporis blanditiis quisquam, reprehenderit suscipit sequi?</p>
+    <div>
+      <logo/>
+      <h1 class="title">Portfolio</h1>
+      <p class="subtitle">Andrew Truex</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ab voluptas eaque ipsam quibusdam quia esse nostrum amet voluptatibus in aut voluptates, id at, corporis blanditiis quisquam, reprehenderit suscipit sequi?</p>
+    </div>
   </section>
 </template>
 
