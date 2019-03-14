@@ -1,8 +1,11 @@
 <template>
   <section class="container">
     <div>
-      <logo/>
       <h1 class="title">Portfolio</h1>
+      <br>
+      <br>
+      <logo/>
+
       <p class="subtitle">Andrew Truex</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ab voluptas eaque ipsam quibusdam quia esse nostrum amet voluptatibus in aut voluptates, id at, corporis blanditiis quisquam, reprehenderit suscipit sequi?</p>
     </div>
@@ -20,12 +23,26 @@ export default {
 </script>
 
 <style>
+h1.title {
+  color: #f46036;
+}
+p,
+p.subtitle {
+  /* color: #192b33; */
+  color: #ffffff;
+}
 .container {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #192b33;
+  color: #f46036;
+  margin-right: 0px;
+  margin-left: 0px;
+  max-width: max-content;
+  width: auto;
 }
 
 .title {
