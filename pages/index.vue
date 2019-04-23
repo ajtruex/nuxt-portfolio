@@ -7,7 +7,7 @@
       <logo/>
 
       <p class="subtitle">Andrew Truex</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ab voluptas eaque ipsam quibusdam quia esse nostrum amet voluptatibus in aut voluptates, id at, corporis blanditiis quisquam, reprehenderit suscipit sequi?</p>
+      <p>Bio</p>
     </div>
   </section>
 </template>
