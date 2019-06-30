@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: truboo.tech
+Token: 7539a063d6089acc7454f25428bde9b59358292ebbddfb1a99046ef35fb46674
