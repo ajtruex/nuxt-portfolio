@@ -27,6 +27,6 @@
     "eslint-plugin-vue": "^4.0.0",
     "nodemon": "^1.11.0",
     "prettier": "1.14.3",
-    "webpack-bundle-analyzer": "^3.0.3"
+    "webpack-bundle-analyzer": "^3.3.2"
   }
 }
